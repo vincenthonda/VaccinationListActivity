@@ -13,119 +13,20 @@
       android:text="Hero Name Here"
       android:textSize="34sp"
       android:textStyle="bold"
-      app:layout_constraintBottom_toTopOf="@+id/textView_detail_day1"
+      app:layout_constraintBottom_toTopOf="@+id/textView_detail_timeline"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintHorizontal_bias="0.5"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent" />
 
   <TextView
-      android:id="@+id/textView_detail_day1"
+      android:id="@+id/textView_detail_timeline"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:text="Description goes here"
-      app:layout_constraintBottom_toTopOf="@+id/textView_detail_day2"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintHorizontal_bias="0.5"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/textView_detail_countryName" />
 
-  <TextView
-      android:id="@+id/textView_detail_day2"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="Description goes here"
-      app:layout_constraintBottom_toTopOf="@+id/textView_detail_day3"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.5"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@+id/textView_detail_day1" />
-
-  <TextView
-      android:id="@+id/textView_detail_day3"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="Description goes here"
-      app:layout_constraintBottom_toTopOf="@+id/textView_detail_day4"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.5"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@+id/textView_detail_day2" />
-
-  <TextView
-      android:id="@+id/textView_detail_day4"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="Description goes here"
-      app:layout_constraintBottom_toTopOf="@+id/textView_detail_day5"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.5"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@+id/textView_detail_day3" />
-
-  <TextView
-      android:id="@+id/textView_detail_day5"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="Description goes here"
-      app:layout_constraintBottom_toTopOf="@+id/textView_detail_day6"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.5"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@+id/textView_detail_day4" />
-
-  <TextView
-      android:id="@+id/textView_detail_day6"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="Description goes here"
-      app:layout_constraintBottom_toTopOf="@+id/textView_detail_day7"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.5"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@+id/textView_detail_day5" />
-
-  <TextView
-      android:id="@+id/textView_detail_day7"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="Description goes here"
-      app:layout_constraintBottom_toTopOf="@+id/textView_detail_day8"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.5"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@+id/textView_detail_day6" />
-
-  <TextView
-      android:id="@+id/textView_detail_day8"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="Description goes here"
-      app:layout_constraintBottom_toTopOf="@+id/textView_detail_day9"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.5"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@+id/textView_detail_day7" />
-
-  <TextView
-      android:id="@+id/textView_detail_day9"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="Description goes here"
-      app:layout_constraintBottom_toTopOf="@+id/textView_detail_day10"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.5"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@+id/textView_detail_day8" />
-
-  <TextView
-      android:id="@+id/textView_detail_day10"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="Description goes here"
-      app:layout_constraintBottom_toBottomOf="parent"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.5"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@+id/textView_detail_day9" />
 </androidx.constraintlayout.widget.ConstraintLayout>

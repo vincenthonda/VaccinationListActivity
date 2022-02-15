@@ -11,6 +11,7 @@
         android:layout_height="278dp"
         android:paddingTop="8dp"
         android:paddingBottom="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -18,103 +19,22 @@
             android:id="@+id/textView_vaccinationItem_countryName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
             android:text="TextView"
             android:textSize="24sp"
             android:textStyle="bold"
-            app:layout_constraintStart_toStartOf="@+id/textView_vaccinationItem_day1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:text="The Potato" />
 
         <TextView
-            android:id="@+id/textView_vaccinationItem_day1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="TextView"
-            app:layout_constraintStart_toStartOf="@+id/textView_vaccinationItem_day2"
-            app:layout_constraintTop_toBottomOf="@+id/textView_vaccinationItem_countryName"
-            tools:text="It's a potato that can READ YOUR MIND" />
-
-        <TextView
-            android:id="@+id/textView_vaccinationItem_day2"
-            android:layout_width="wrap_content"
+            android:id="@+id/textView_vaccinationItem_timeline"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="TextView"
-            app:layout_constraintStart_toStartOf="@+id/textView_vaccinationItem_day3"
-            app:layout_constraintTop_toBottomOf="@+id/textView_vaccinationItem_day1"
-            tools:text="It's a potato that can READ YOUR MIND" />
-
-        <TextView
-            android:id="@+id/textView_vaccinationItem_day3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="TextView"
-            app:layout_constraintStart_toStartOf="@+id/textView_vaccinationItem_day4"
-            app:layout_constraintTop_toBottomOf="@+id/textView_vaccinationItem_day2"
-            tools:text="It's a potato that can READ YOUR MIND" />
-
-        <TextView
-            android:id="@+id/textView_vaccinationItem_day4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="TextView"
-            app:layout_constraintStart_toStartOf="@+id/textView_vaccinationItem_day5"
-            app:layout_constraintTop_toBottomOf="@+id/textView_vaccinationItem_day3"
-            tools:text="It's a potato that can READ YOUR MIND" />
-
-        <TextView
-            android:id="@+id/textView_vaccinationItem_day5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="TextView"
-            app:layout_constraintStart_toStartOf="@+id/textView_vaccinationItem_day6"
-            app:layout_constraintTop_toBottomOf="@+id/textView_vaccinationItem_day4"
-            tools:text="It's a potato that can READ YOUR MIND" />
-
-        <TextView
-            android:id="@+id/textView_vaccinationItem_day6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="TextView"
-            app:layout_constraintStart_toStartOf="@+id/textView_vaccinationItem_day7"
-            app:layout_constraintTop_toBottomOf="@+id/textView_vaccinationItem_day5"
-            tools:text="It's a potato that can READ YOUR MIND" />
-
-        <TextView
-            android:id="@+id/textView_vaccinationItem_day7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="TextView"
-            app:layout_constraintStart_toStartOf="@+id/textView_vaccinationItem_day8"
-            app:layout_constraintTop_toBottomOf="@+id/textView_vaccinationItem_day6"
-            tools:text="It's a potato that can READ YOUR MIND" />
-
-        <TextView
-            android:id="@+id/textView_vaccinationItem_day8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="TextView"
-            app:layout_constraintStart_toStartOf="@+id/textView_vaccinationItem_day9"
-            app:layout_constraintTop_toBottomOf="@+id/textView_vaccinationItem_day7"
-            tools:text="It's a potato that can READ YOUR MIND" />
-
-        <TextView
-            android:id="@+id/textView_vaccinationItem_day9"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="TextView"
-            app:layout_constraintStart_toStartOf="@+id/textView_vaccinationItem_day10"
-            app:layout_constraintTop_toBottomOf="@+id/textView_vaccinationItem_day8"
-            tools:text="It's a potato that can READ YOUR MIND" />
-
-        <TextView
-            android:id="@+id/textView_vaccinationItem_day10"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="TextView"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView_vaccinationItem_day9"
+            app:layout_constraintTop_toBottomOf="@+id/textView_vaccinationItem_countryName"
             tools:text="It's a potato that can READ YOUR MIND" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
