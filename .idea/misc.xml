@@ -8,6 +8,7 @@
         <entry key="app/src/main/res/layout/activity_vaccination_list.xml" value="0.3161231884057971" />
         <entry key="app/src/main/res/layout/activity_vaccinationdetail.xml" value="0.23697916666666666" />
         <entry key="app/src/main/res/layout/item_vaccination.xml" value="0.335" />
+        <entry key="app/src/main/res/menu/vaccinesort.xml" value="0.19907407407407407" />
       </map>
     </option>
   </component>

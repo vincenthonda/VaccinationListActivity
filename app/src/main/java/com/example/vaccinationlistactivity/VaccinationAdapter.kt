@@ -23,7 +23,7 @@ class VaccinationAdapter(var dataSet: List<Vaccination>) :
 
         init {
             countryName= view.findViewById(R.id.textView_vaccinationItem_countryName)
-            timeline = view.findViewById((R.id.textView_detail_timeline))
+            timeline = view.findViewById(R.id.textView_vaccinationItem_timeline)
             layout = view.findViewById(R.id.layout_vaccinationItem)
         }
     }
@@ -43,7 +43,8 @@ class VaccinationAdapter(var dataSet: List<Vaccination>) :
         // contents of the view with that element
         val vaccination = dataSet[position]
         viewHolder.countryName.text = vaccination.country
-        viewHolder.timeline.text = vaccination.timeline.toString()
+        val key = vaccination.timeline.lastKey()
+        viewHolder.timeline.text = vaccination.timeline[key].toString()
 
         viewHolder.layout.setOnClickListener {
             //Toast.makeText(it.context, "Hi, you clicked on ${vaccination.name}", Toast.LENGTH_SHORT).show()

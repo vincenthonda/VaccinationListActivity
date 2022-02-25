@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/sortby_lastTen"
+        android:title="Most (Last 10 days)"
+        app:actionProviderClass="androidx.mediarouter.app.MediaRouteActionProvider"
+        tools:icon="@drawable/mr_button_light" />
+    <item
+        android:id="@+id/sortby_name"
+        android:title="name"
+        app:actionProviderClass="androidx.mediarouter.app.MediaRouteActionProvider"
+        tools:icon="@drawable/mr_button_light" />
+    <item
+        android:id="@+id/sortby_total"
+        android:title="Total"
+        app:actionProviderClass="androidx.mediarouter.app.MediaRouteActionProvider"
+        tools:icon="@drawable/mr_button_light" />
+</menu>
